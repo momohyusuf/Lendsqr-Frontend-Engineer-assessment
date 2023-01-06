@@ -1,0 +1,33 @@
+.btn--light--blue {
+  height: 48px;
+  width: 447px;
+  max-width: 100%;
+  background: #39cdcc;
+  border-radius: 8px;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  margin: 2rem 0;
+}
+
+.btn--small--blue,
+.btn--small--white {
+  height: 48px;
+  width: 98px;
+  background-color: white;
+  border-radius: 8px;
+  color: #545f7d;
+  border: 0;
+  cursor: pointer;
+  height: 40px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  border: 1px solid #545f7d;
+  border-radius: 8px;
+}
+.btn--small--blue {
+  background-color: #39cdcc;
+  color: white;
+  border: 1px solid #39cdcc;
+}

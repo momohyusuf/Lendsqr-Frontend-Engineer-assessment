@@ -1,0 +1,40 @@
+.options--card {
+  position: absolute;
+  z-index: 10;
+  top: -10px;
+  right: -15px;
+  width: 180px;
+  height: 130px;
+  background-color: #ffffff;
+  border: 1px solid rgba(84, 95, 125, 0.04);
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  //   p {
+  //     font-family: 'Work Sans', sans-serif;
+  //     font-weight: 500;
+  //     font-size: 14px;
+  //     line-height: 16px;
+  //   }
+  color: #545f7d;
+  div {
+    display: flex;
+    align-items: center;
+    column-gap: 0.4rem;
+
+    span {
+      font-family: 'Work Sans', sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      cursor: pointer;
+    }
+
+    &:nth-child(1) {
+      padding-top: 20px;
+    }
+    &:nth-child(2) {
+      padding: 20px;
+    }
+    padding: 0 20px;
+  }
+}

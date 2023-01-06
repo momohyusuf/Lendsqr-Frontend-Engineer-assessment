@@ -1,0 +1,36 @@
+.pagination {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  cursor: pointer;
+
+  .page-item {
+    font-family: 'Work sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #545f7d;
+
+    opacity: 0.6;
+  }
+  .page-item:nth-child(1) {
+    background: rgba(33, 63, 125, 0.1);
+    border-radius: 4px;
+    color: #213f7d;
+    padding: 0.4rem;
+    font-weight: bold;
+  }
+  .page-item:last-child {
+    background: rgba(33, 63, 125, 0.1);
+    border-radius: 4px;
+    color: #213f7d;
+    padding: 0.4rem;
+    font-weight: bold;
+  }
+  .active {
+    opacity: 1;
+    color: #213f7d;
+  }
+}

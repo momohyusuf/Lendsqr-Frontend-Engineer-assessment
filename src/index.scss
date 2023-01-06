@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: myFontBold;
+  src: url('./assets/fonts/AvenirNextLTPro-Bold.otf');
+}
+@font-face {
+  font-family: myFontRegular;
+  src: url('./assets/fonts/AvenirNextLTPro-Regular.otf');
+}
+@font-face {
+  font-family: detailsPageTabFont;
+  src: url('./assets/fonts/SF-Compact-Text-Regular.otf');
+}
+.tabs {
+  p {
+    font-family: detailsPageTabFont;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+  }
+}
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+h1,
+h2 {
+  font-family: myFontBold;
+}
+p,
+span {
+  font-family: myFontRegular;
+  color: #545f7d;
+}
+body {
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
